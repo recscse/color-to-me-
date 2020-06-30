@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ColorWithInput</title>
+
+<style>
+  .d1{border: 1px solid black;}
+  .d2{border: 1px solid black;}
+  .d3{border: 1px solid black;}
+  .d4{border: 1px solid black;}
+  .d5{border: 1px solid black;}
+  .d6{border: 1px solid black;}
+  .d7{border: 1px solid black;}
+  .d8{border: 1px solid black;}
+  .d9{border: 1px solid black;}
+  .container {
+  margin-top: 20px;
+  margin-left:500px;
+    font-size: 40px;
+    width: 50%;
+    height: 50%;
+    background: white;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    /* Only change code below this line */
+     grid-template-rows: 50px 50px 50px;
+   
+    /* Only change code above this line */
+  }
+  .input {
+     align-items: left;
+  }
+</style>
+
+</head>
+<body>
+     <div class="input">
+<input type="text" id="inputText" placeholder="Enter number based on container value">
+<button type="submit" onclick="getInputValue();" >Color Me</button>
+</div>
+    <div class="container">
+   
+  <div class="d1" id="01">1</div>
+  <div class="d2" id="02">2</div>
+  <div class="d3" id="03">3</div>
+  <div class="d4" id="04">4</div>
+  <div class="d5" id="05">5</div>
+  <div class="d6" id="06">6</div>
+  <div class="d7" id="07">7</div>
+  <div class="d8" id="08">8</div>
+  <div class="d9" id="09">9</div>
+</div>
+<script>
+  function getInputValue(){
+            // Selecting the input element and get its value
+            let inputVal = document.getElementById("inputText").value;
+             
+            // Displaying the valu
+            if(inputVal == '1'){
+             document.getElementById("01").style.background = "green";
+            }
+            if(inputVal == '2'){
+               console.log(inputVal);
+             document.getElementById("02").style.background = "green";
+            }
+            if(inputVal == '3'){
+               console.log(inputVal);
+             document.getElementById("03").style.background = "green";
+            }
+            if(inputVal == '4'){
+               console.log(inputVal);
+             document.getElementById("04").style.background = "green";
+            }
+            if(inputVal == '5'){
+               console.log(inputVal);
+             document.getElementById("05").style.background = "green";
+            }if(inputVal == '6'){
+               console.log(inputVal);
+             document.getElementById("06").style.background = "green";
+            }
+            if(inputVal == '7'){
+               console.log(inputVal);
+             document.getElementById("07").style.background = "green";
+            }
+            if(inputVal == '8'){
+               console.log(inputVal);
+             document.getElementById("08").style.background = "green";
+            }
+            if(inputVal == '9'){
+               console.log(inputVal);
+             document.getElementById("09").style.background = "green";
+            }
+            // alert(inputVal);
+        }
+</script>
+</body>
+</html>

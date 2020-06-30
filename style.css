@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.input
+{
+    align-items: left;
+}
+.container{
+    height:5vh;
+    width: 50%;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    /* Only change code below this line */
+     grid-template-rows: 50px 50px 50px;
+    text-align: center;
+    background-color: white;
+    display:grid;
+}
+  .d1{border: 1px solid black;}
+  .d2{border: 1px solid black;}
+  .d3{border: 1px solid black;}
+  .d4{border: 1px solid black;}
+  .d5{border: 1px solid black;}
+  .d6{border: 1px solid black;}
+  .d7{border: 1px solid black;}
+  .d8{border: 1px solid black;}
+  .d9{border: 1px solid black;}

@@ -2,7 +2,7 @@ function getInputValue(){
     
     let inputVal = document.getElementById("inputText").value;
     if(inputVal==1){
-        documnent.getElementById("01").style.background="#39d40b";
+        document.getElementById("01").style.background="#39d40b";
     }
     if(inputVal==2){
         document.getElementById("02").style.background="red";
